@@ -1,11 +1,14 @@
 {
-  "name": "graphql-redis-subscriptions",
+  "name": "apollo-redis-subscriptions",
   "version": "2.7.0",
-  "description": "A graphql-subscriptions PubSub Engine using redis",
+  "description": "A graphql-subscriptions PubSub Engine using redis (maintained fork of graphql-redis-subscriptions)",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidyaha/graphql-redis-subscriptions.git"
+    "url": "https://github.com/rafagsiqueira/apollo-redis-subscriptions.git"
   },
   "keywords": [
     "graphql",
@@ -18,13 +21,17 @@
     {
       "name": "Michał Lytek",
       "url": "https://github.com/19majkel94"
+    },
+    {
+      "name": "Rafael Guimarães Siqueira",
+      "url": "https://github.com/rafagsiqueira"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidyaha/graphql-redis-subscriptions/issues"
+    "url": "https://github.com/rafagsiqueira/apollo-redis-subscriptions/issues"
   },
-  "homepage": "https://github.com/davidyaha/graphql-redis-subscriptions",
+  "homepage": "https://github.com/rafagsiqueira/apollo-redis-subscriptions",
   "scripts": {
     "compile": "tsc",
     "test": "npm run coverage && npm run lint",
