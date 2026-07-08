@@ -15,12 +15,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
           package-manager: npm
           cache: false
+      # Trusted publishing (OIDC) requires npm >= 11.5.1; Node 24.0 ships npm 11.3.
+      - run: npm install -g npm@latest
       - run: npm ci
-      - run: npm run build --if-present
+      - run: npm run compile
       - run: npm test
       - run: npm publish --provenance --access public
     
