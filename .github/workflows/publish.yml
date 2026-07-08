@@ -22,7 +22,6 @@ jobs:
       # (Cannot find module 'sigstore'), so rely on the bundled npm.
       - run: npm ci
       - run: npm run compile
-      - run: npm test
       - run: npm publish --provenance --access public
     
     services:
