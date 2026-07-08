@@ -1,6 +1,6 @@
 {
   "name": "apollo-redis-subscriptions",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "A graphql-subscriptions PubSub Engine using redis (maintained fork of graphql-redis-subscriptions)",
   "main": "dist/index.js",
   "files": [
@@ -16,15 +16,15 @@
     "apollo",
     "subscriptions"
   ],
-  "author": "David Yahalomi",
+  "author": "Rafael Guimarães Siqueira",
   "contributors": [
+    {
+      "name": "David Yahalomi",
+      "url": "https://github.com/davidyaha"
+    },
     {
       "name": "Michał Lytek",
       "url": "https://github.com/19majkel94"
-    },
-    {
-      "name": "Rafael Guimarães Siqueira",
-      "url": "https://github.com/rafagsiqueira"
     }
   ],
   "license": "MIT",
