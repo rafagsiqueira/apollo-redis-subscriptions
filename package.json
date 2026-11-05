@@ -1,6 +1,6 @@
 {
   "name": "apollo-redis-subscriptions",
-  "version": "2.7.2",
+  "version": "2.7.3",
   "description": "A graphql-subscriptions PubSub Engine using redis (maintained fork of graphql-redis-subscriptions)",
   "main": "dist/index.js",
   "files": [
@@ -64,14 +64,14 @@
     "ioredis": "^5.3.2",
     "mocha": "^10.0.0",
     "nyc": "^17.1.0",
-    "redis": "^5.8.2",
+    "redis": "^6.3.1",
     "simple-mock": "^0.8.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.7.2"
   },
   "optionalDependencies": {
     "ioredis": "^5.3.2",
-    "redis": "^5.8.2"
+    "redis": "^6.3.1"
   },
   "typings": "dist/index.d.ts",
   "typescript": {
